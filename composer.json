@@ -1,0 +1,23 @@
+{
+    "name": "ibibicloud/thinkphp-multi-app",
+    "keywords": ["thinkphp", "multi-app", "thinkphp-multi-app"],
+    "description": "thinkphp-multi-app",
+    "license": "Apache-2.0",
+    "require": {
+    	"php": ">=7.1.0",
+        "ibibicloud/thinkphp-framework": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "think\\app\\": "src"
+        }
+    },
+    "extra": {
+        "think":{
+            "services":[
+                "think\\app\\Service"
+            ]
+        }
+    },    
+    "minimum-stability": "dev"
+}
